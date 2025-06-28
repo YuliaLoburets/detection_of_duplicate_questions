@@ -1,0 +1,34 @@
+# Core data manipulation
+pandas
+numpy
+
+# Data visualization
+matplotlib
+seaborn
+
+# Text preprocessing and NLP
+nltk
+sentence-transformers
+regex          # optional, for advanced text patterns
+unicodedata2   # used if Unicode normalization is needed
+
+# Machine learning models and utilities
+scikit-learn
+xgboost
+joblib
+hyperopt
+
+# Evaluation and interpretation
+shap
+evaluate
+
+# Graph-based features
+networkx
+
+# Deep learning and transformers
+torch
+transformers
+datasets
+
+
+add requirements.txt
