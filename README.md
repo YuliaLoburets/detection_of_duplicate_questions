@@ -1,7 +1,7 @@
 # Quora Duplicate Question Detection
 This repository presents a complete solution for detecting duplicate questions using a combination of traditional ML features, graph-based techniques, and fine-tuned BERT transformer models.
 
-##Project Overview
+### Project Overview
 The main aim is to identify whether a pair of questions from Quora are semantically equivalent. The pipeline includes:
 
 - **Text preprocessing**
