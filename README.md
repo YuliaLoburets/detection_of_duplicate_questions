@@ -96,17 +96,18 @@ Key feature importances:
   - Classification head
 - Training settings:
 
-```python
+
 learning_rate = 2e-5
 weight_decay = 0.01
 batch_size = 8
 num_train_epochs = 3
+
 
 ### 8.Future Improvements
 Incorporate additional external metadata
 Implement model stacking (e.g., XGBoost + BERT)
 API deployment using FastAPI / Streamlit
 
-###License
+### License
 This project is for educational and research use only.
 
