@@ -106,19 +106,6 @@ Incorporate additional external metadata
 Implement model stacking (e.g., XGBoost + BERT)
 API deployment using FastAPI / Streamlit
 
-## Requirements
-scikit-learn
-xgboost
-networkx
-nltk
-sentence-transformers
-transformers
-datasets
-matplotlib
-seaborn
-hyperopt
-joblib
-
 ### License
 This project is for educational and research use only.
 
