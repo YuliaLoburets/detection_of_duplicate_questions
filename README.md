@@ -57,7 +57,7 @@ Using `networkx`, an undirected graph was constructed:
 
 ---
 
-### 5. Evaluation Results
+## 5. Evaluation Results
 
 ### Metrics: F1 Score, Log Loss
 
@@ -72,7 +72,7 @@ Using `networkx`, an undirected graph was constructed:
 
 ---
 
-### 6. SHAP Insights
+## 6. SHAP Insights
 
 Key feature importances:
 
@@ -87,7 +87,7 @@ Key feature importances:
 
 ---
 
-### 7. BERT Fine-Tuning
+## 7. BERT Fine-Tuning
 
 - Model: `bert-base-uncased`
 - Layers unfrozen:
@@ -96,17 +96,28 @@ Key feature importances:
   - Classification head
 - Training settings:
 
-
 learning_rate = 2e-5
 weight_decay = 0.01
 batch_size = 8
 num_train_epochs = 3
 
-
-### 8.Future Improvements
+## 8.Future Improvements
 Incorporate additional external metadata
 Implement model stacking (e.g., XGBoost + BERT)
 API deployment using FastAPI / Streamlit
+
+## Requirements
+scikit-learn
+xgboost
+networkx
+nltk
+sentence-transformers
+transformers
+datasets
+matplotlib
+seaborn
+hyperopt
+joblib
 
 ### License
 This project is for educational and research use only.
